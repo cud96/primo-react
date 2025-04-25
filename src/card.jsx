@@ -1,13 +1,10 @@
 import react from 'react';
 
 function Card(){
-    
-    const [nome,setNome]=useState();
-    
+    var nome ="ciao";
     
     return
-<h1>ciao,{props.name}!</h1>;
-
+<h1>ciao,{nome}!</h1>
 }
 
 export default Card;
