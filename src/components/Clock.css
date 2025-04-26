@@ -1,0 +1,6 @@
+.clock-container {
+    display: flex;
+    justify-content: flex-end; /* Sposta a destra */
+    padding: 20px;
+  }
+  

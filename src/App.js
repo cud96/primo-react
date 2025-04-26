@@ -1,15 +1,14 @@
 import './App.css';
 import react from 'react';
-import Counter from './useClock';
-import Card from './card';
+import NavBar from './components/NavBar';
+import Clocks from './components/Clock';
 
-function App(children) {
+function App() {
   return (
-    <>
-    <h1>ciaoo</h1>
-    <h2>buu</h2>
-    <Counter>ciao</Counter>
-      </>
+  <div>
+  <NavBar/>
+  <Clocks/>
+  </div>
   );
 }
 
