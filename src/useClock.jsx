@@ -1,6 +1,6 @@
 import react,{ useEffect,useState} from "react";
 
-function Counter(){   
+function Counter(children){   
 var data;
 useEffect(()=>{ 
 const data = new Date();
@@ -10,7 +10,7 @@ console.log(data);
 
 return(
 <div>
-<p>{data}</p>
+<p>{data}{children}</p>
 </div>
 )};
 
